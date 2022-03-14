@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="blackjack.TestStep2" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="sun.boot.library.path" value="D:\dev\apps\java\openjdk-11.0.5.10-2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\dev\workspaces\exemples\fdj\blackjack"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\dev\workspaces\exemples\fdj\blackjack"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kbout\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\dev\workspaces\exemples\fdj\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11512796998019211627.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\dev\apps\java\openjdk-11.0.5.10-2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/dev/apps/java/openjdk-11.0.5.10-2/bin/server;D:/dev/apps/java/openjdk-11.0.5.10-2/bin;D:\dev\apps\oracle\oracle-11g-r2\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\kbout\AppData\Local\Microsoft\WindowsApps;D:\dev\apps\maven\maven-3.5.4\bin;D:\dev\apps\tomcat\tomcat-9.0.52\bin;D:\dev\apps\java\openjdk-11.0.5.10-2\bin;D:\dev\apps\git\git-2.33.0.2\cmd;D:\dev\apps\nodejs\nodejs-16.13.2;;D:\dev\apps\eclipse\eclipse-jee-2021-06-R;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kbout"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="kbout"/>
+    <property name="java.class.path" value="D:\dev\apps\eclipse\eclipse-jee-2021-06-R\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s D:\dev\workspaces\exemples\fdj\m2repo\settings.xml clean install -X"/>
+    <property name="java.home" value="D:\dev\apps\java\openjdk-11.0.5.10-2"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\dev\workspaces\exemples\fdj\blackjack\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="blackjack.TestStep2" name="should_have_seventeen_points_when_cards_are_four_and_five_and_two_and_six" time="0"/>
+  <testcase classname="blackjack.TestStep2" name="should_have_four_points_when_cards_are_two_and_two" time="0"/>
+  <testcase classname="blackjack.TestStep2" name="should_have_fourteen_points_when_cards_are_eight_and_six" time="0"/>
+  <testcase classname="blackjack.TestStep2" name="should_have_nineteen_points_when_cards_are_eight_and_six_and_five" time="0"/>
+</testsuite>
